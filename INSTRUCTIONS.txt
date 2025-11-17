@@ -1,0 +1,7 @@
+Install node js and express before running 
+
+to run :
+type "node server.js" in terminal, 
+go to "http://localhost:3000/signin_up/signup.html" 
+sign up and sign in and go to the habits page 
+yo 

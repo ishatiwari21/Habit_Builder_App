@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 20px 40px;
+    border-bottom: 1px solid #d1d5db;
+  }
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+  }
+  .handle {
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+  .navbar-center a {
+    margin: 0 10px;
+    color: #374151;
+  }
+  .navbar-right .btn {
+    margin-left: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .btn.primary {
+    background-color: #3b82f6;
+    color: white;
+  }
+  .btn.secondary {
+    background-color: transparent;
+    color: #3b82f6;
+    border: 1px solid #3b82f6;
+  }
+  .btn.select {
+    background-color: #4b5563;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .task-selector {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .task-selector h1 {
+    font-size: 2rem;
+    color: #111827;
+  }
+  .task-selector p {
+    color: #6b7280;
+    margin-bottom: 40px;
+  }
+  
+  .task-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .task-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    width: 200px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  .task-card:hover {
+    transform: scale(1.03);
+  }
+  .task-card img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+  }
+  .task-card h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #1f2937;
+  }
